@@ -4,12 +4,12 @@ Real-time object detection with AI-powered image analysis.
 
 ## Quick Start
 
-### 1. Set API Key (in PowerShell)
-```powershell
-$env:GEMINI_API_KEY = "your_api_key_here"
+### 1. Set API Key
+```bash
+python setup_api_key.py
 ```
 
-**Already set for this session!** ✓
+This will create a `.api_key` file (ignored by Git) to store your API key securely.
 
 ### 2. Run Application
 ```bash
@@ -52,6 +52,8 @@ python object_detection.py
 ## Get API Key
 
 Free API key: https://makersuite.google.com/app/apikey
+
+⚠️ **Security Note:** Never commit your `.api_key` file to Git. It's already in `.gitignore` to prevent accidental commits.
 
 ---
 
