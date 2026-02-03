@@ -1,0 +1,28 @@
+# Dataset configuration for YOLO training
+# Generated for physics equipment detection
+
+# Dataset paths (relative or absolute)
+path: C:\Users\admin\Desktop\object detection\dataset
+train: images/train
+val: images/val
+
+# Number of classes
+nc: 15
+
+# Class names
+names:
+  0: motor
+  1: wire or cable
+  2: power supply box (12kv DC)
+  3: motor holder
+  4: stands / holders
+  5: weight
+  6: sliding weight
+  7: scale
+  8: angle scale
+  9: center pivot
+  10: base platform
+  11: connector
+  12: switch
+  13: weight holder
+  14: wire or chains
