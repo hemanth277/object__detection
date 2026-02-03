@@ -1,4 +1,4 @@
 @echo off
-setx GEMINI_API_KEY "AIzaSyCfyGT3X8ggt0He1caPu2h3ARlKr0qAyHg"
+setx GEMINI_API_KEY "YOUR_API_KEY_HERE"
 echo API key set successfully!
 pause
